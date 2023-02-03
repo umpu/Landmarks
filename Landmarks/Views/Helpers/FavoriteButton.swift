@@ -1,15 +1,8 @@
-//
-//  FavoriteButton.swift
-//  Landmarks
-//
-//  Created by a on 2/2/23.
-//
-
 import SwiftUI
 
 struct FavoriteButton: View {
     @Binding var isSet: Bool
-    
+
     var body: some View {
         Button {
             isSet.toggle()
