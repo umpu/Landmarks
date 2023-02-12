@@ -4,7 +4,7 @@ struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
 
     var body: some View {
-        NavigationStack {
+        NavigationView {
             List {
                 modelData.features[0].image
                     .resizable()
